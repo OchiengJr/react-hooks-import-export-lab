@@ -1,12 +1,15 @@
 import React from "react";
-import  {image} from "../data/user";
+import { image } from "../data/user";
+import "./About.css"; //
 
 function About() {
   return (
-    <div id="about">
-      <h2>About Me</h2>
-      <p>I Made This</p>
-      <img src={image} alt="I made this" />
+    <div id="about" className="about-container">
+      <h2 className="about-title">Meet the Creator</h2>
+      <p className="about-message">Hey there! I'm the creative mind behind this masterpiece.</p>
+      <div className="about-image-container">
+        <img src={image} alt="I made this" className="about-image" />
+      </div>
     </div>
   );
 }

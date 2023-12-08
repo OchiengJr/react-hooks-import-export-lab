@@ -2,10 +2,12 @@ import React from "react";
 
 function NavBar() {
   return (
-    <nav>
-      <a href="#home">I'm a link!</a>
+    <nav style={{ backgroundColor: "#333", padding: "10px", textAlign: "center" }}>
+      <a href="#home" style={{ color: "#fff", textDecoration: "none", fontSize: "18px" }}>
+        Click me to go home!
+      </a>
     </nav>
   );
 }
 
-export default NavBar
+export default NavBar;
