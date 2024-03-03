@@ -1,6 +1,6 @@
 import React from "react";
 import { image } from "../data/user";
-import "./About.css"; //
+import "./About.css";
 
 function About() {
   return (
@@ -8,7 +8,8 @@ function About() {
       <h2 className="about-title">Meet the Creator</h2>
       <p className="about-message">Hey there! I'm the creative mind behind this masterpiece.</p>
       <div className="about-image-container">
-        <img src={image} alt="I made this" className="about-image" />
+        {/* Use descriptive alt text for the image */}
+        <img src={image} alt="Portrait of the creator" className="about-image" />
       </div>
     </div>
   );
